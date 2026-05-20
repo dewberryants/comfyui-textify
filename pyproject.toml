@@ -27,7 +27,8 @@ dev = [
     "pytest",
     "ruff",
     "Pillow",
-    "numpy"
+    "numpy",
+    "torch"
 ]
 
 [project.urls]
