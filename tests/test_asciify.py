@@ -3,19 +3,19 @@
 """Tests for `asciify` package."""
 
 import pytest
-from src.asciify.nodes import ImageToAscii
+from src.asciify.nodes import Textify
 
 @pytest.fixture
 def example_node():
     """Fixture to create an Example node instance."""
-    return ImageToAscii()
+    return Textify()
 
 def test_example_node_initialization(example_node):
     """Test that the node can be instantiated."""
-    assert isinstance(example_node, ImageToAscii)
+    assert isinstance(example_node, Textify)
 
 def test_return_types():
     """Test the node's metadata."""
-    assert ImageToAscii.RETURN_TYPES == ("IMAGE", "STRING")
-    assert ImageToAscii.FUNCTION == "convert"
-    assert ImageToAscii.CATEGORY == "Asciify"
+    assert Textify.RETURN_TYPES == ("IMAGE",)
+    assert Textify.FUNCTION == "convert"
+    assert Textify.CATEGORY == "Textify"
