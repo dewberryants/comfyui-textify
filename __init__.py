@@ -9,6 +9,6 @@ __author__ = """Dominik Behrens"""
 __email__ = "dewberryants@gmail.com"
 __version__ = "0.0.1"
 
-from .src.asciify.nodes import NODE_CLASS_MAPPINGS
+from .src.textify.node import NODE_CLASS_MAPPINGS
 
 WEB_DIRECTORY = "./web"

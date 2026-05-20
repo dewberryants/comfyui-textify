@@ -1,1 +1,1 @@
-"""Unit test package for asciify."""
+"""Unit test package for comfyui-textify."""

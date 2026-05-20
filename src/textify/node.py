@@ -120,7 +120,7 @@ class Textify:
 
     FUNCTION = "convert"
 
-    CATEGORY = "Asciify"
+    CATEGORY = "Textify"
 
     def convert(self, image: torch.Tensor, font: str, font_size: int, charset: str, mode: int, dither: bool):
         image_np = image.cpu().numpy()

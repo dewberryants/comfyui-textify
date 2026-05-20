@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
-"""Tests for `asciify` package."""
+"""Tests for `Textify` package."""
 
 import pytest
-from src.asciify.nodes import Textify
+from src.textify.node import Textify
 
 @pytest.fixture
 def example_node():

@@ -3,7 +3,7 @@ requires = ["setuptools>=70.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "asciify"
+name = "textify"
 version = "0.0.1"
 description = "Turn pixel data into ascii art"
 authors = [
@@ -31,17 +31,17 @@ dev = [
 ]
 
 [project.urls]
-Repository = "https://github.com/dewberryants/asciify"
-BugTracker = "https://github.com/dewberryants/asciify/issues"
-Documentation = "https://github.com/dewberryants/asciify/wiki"
+Repository = "https://github.com/dewberryants/comfyui-textify"
+BugTracker = "https://github.com/dewberryants/comfyui-textify/issues"
+Documentation = "https://github.com/dewberryants/comfyui-textify/wiki"
 
 
 [tool.comfy]
 PublisherId = "dewberryants"
-DisplayName = "ASCIIfy"
+DisplayName = "Textify"
 Icon = ""
 Tags = []
-Repository = "https://github.com/dewberryants/asciify"
+Repository = "https://github.com/dewberryants/comfyui-textify"
 
 includes = []
 
